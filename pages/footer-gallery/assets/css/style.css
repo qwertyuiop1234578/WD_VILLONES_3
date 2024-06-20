@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+section {
+  width: 100vw;
+  padding: 1rem 5vw;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+section.design-one{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: wheat;
+
+    & > img.company-logo{
+      height: 50px;
+    }
+
+    p{
+      display: flex;
+      align-items: flex-start;
+      gap: 1 0rem;
+    }
+
+    & > nav.navigation{
+      display: flex;
+      align-items: center;
+      gap: 6rem;
+
+  & > a.navigation-content{
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: black;
+  }
+}
+}
+
+section.design-two{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: whitesmoke;
+
+    & > img.riots{
+      height: 40px;
+    }
+
+    .p{
+      display: flex;
+      align-items: flex-start;
+      gap: 1 0rem;
+    }
+
+    & > .copy{
+      height: 20px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+
+    & > nav.navigation{
+      display: flex;
+      align-items: center;
+      gap: 6rem;
+
+    & > a.navigation-content{
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: black;
+  }
+}
+}
+
+section.design-three{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 10vw;
+  background: pink;
+
+  & > img.copycopy{
+    height: 35px;
+  }
+
+  .p{
+    display: flex;
+    align-items: flex-start;
+    gap: 15rem;
+  }
+
+  & > nav.navigation{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+
+  & > a.navigation-content{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: black;
+}
+}
+}
+
+section.design-four{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 10vw;
+  background: white;
+
+  & > img.copies{
+    height: 20px;
+  }
+
+  .copyright{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: gray;
+  }
+
+  .Apple{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: gray;
+  }
+
+  & > nav.navigation{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+
+  & > a.navigation-content{
+    font-weight: 200;
+    font-size: 1rem;
+    color: gray;
+}
+}
+}
+
+section.design-five{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 10vw;
+  background: white;
+}
+
+section.design-1{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10vw;
+  height: calc(50px + 1rem);
+  align-items: center;
+  background: wheat;
+  
+  & > img.company-logo {
+    height: 50px;
+    padding: 0.2rem 0;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      transform: rotateZ(720deg);
+    }
+  }
+  
+  & > nav.navigation {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  
+    & > a.navigation-content {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: black;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 1rem;
+      transition: 0.2s ease;
+  
+      &:hover {
+        background: brown;
+      }
+    }
+  }
+  }
+
+  section.design-2{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: white;
+
+    & > img.gamers{
+      height: 40px;
+    }
+
+    .p{
+      display: flex;
+      align-items: flex-start;
+      gap: 1 0rem;
+    }
+
+    & > .copy{
+      height: 20px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+
+    & > nav.navigation{
+      display: flex;
+      align-items: center;
+      gap: 6rem;
+
+    & > a.navigation-content{
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: black;
+
+    &:hover {
+        background: red;
+  }
+}
+  }
+  }
+
+  section.design-3{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: pink;
+
+    & > .pop-up{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+  }
+  
+    & > img.copycopy{
+      height: 35px;
+    }
+  
+    .p{
+      display: flex;
+      align-items: flex-start;
+      gap: 15rem;
+    }
+  
+    & > nav.navigation{
+      display: flex;
+      align-items: center;
+      gap: 7rem;
+  
+    & > a.navigation-content{
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: 0.2s ease;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 1rem;
+      border: 1px transparent solid;
+      color: black;
+
+      &:hover {
+        background: hotpink;
+        transform: translate(-10px, -10px);
+        box-shadow: 10px 10px 0px 0px hotpink;
+        border: 1px rgb(0, 0, 0) solid;
+      }
+
+      &:active {
+        background: hotpink;
+        transform: translate(0px, 0px);
+        box-shadow: 0px 0px 0px 0px hotpink;
+        border: 1px transparent solid;
+      }
+  }
+  }
+  }
+
+  section.design-4{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: white;
+  
+    & > img.copies{
+      height: 20px;
+    }
+  
+    .copyright{
+      display: flex;
+      align-items: center;
+      gap: 7rem;
+      font-weight: 600;
+      font-size: 1rem;
+      color: gray;
+    }
+  
+    .Apple{
+      display: flex;
+      align-items: center;
+      gap: 7rem;
+      font-weight: 600;
+      font-size: 1rem;
+      color: gray;
+    }
+  
+    & > nav.navigation{
+      display: flex;
+      align-items: center;
+      gap: 7rem;
+  
+    & > a.navigation-content{
+      font-weight: 200;
+      font-size: 1rem;
+      color: gray;
+
+    &:hover {
+      background: rgb(211, 211, 211);
+  }
+  }
+  }
+  }
+
+  section.design-5{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: white;
+  }
